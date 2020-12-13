@@ -42,8 +42,6 @@ const androidFiles = {
   '../detox/android/detox/src/main/java/com/wix/detox/espresso/EspressoDetox.java': '../detox/src/android/espressoapi/EspressoDetox.js',
   '../detox/android/detox/src/main/java/com/wix/detox/uiautomator/UiAutomator.java': '../detox/src/android/espressoapi/UIAutomator.js',
   '../detox/android/detox/src/main/java/com/wix/detox/espresso/web/EspressoWebDetox.java': '../detox/src/android/espressoapi/web/EspressoWebDetox.js',
-  '../detox/android/detox/src/main/java/com/wix/detox/espresso/web/DetoxWebAtomAction.java': '../detox/src/android/espressoapi/web/DetoxWebAtomAction.js',
-  '../detox/android/detox/src/main/java/com/wix/detox/espresso/web/DetoxWebAssertion.java': '../detox/src/android/espressoapi/web/DetoxWebAssertion.js',
   '../detox/android/detox/src/main/java/com/wix/detox/espresso/web/DetoxWebAtomMatcher.java': '../detox/src/android/espressoapi/web/DetoxWebAtomMatcher.js'
 };
 generateAndroidAdapters(androidFiles);
